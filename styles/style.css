@@ -13,10 +13,11 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 10px;
+    max-width: 600px;
+    max-height: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
@@ -27,12 +28,12 @@ body {
 
 #output {
     color:purple;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 h1 {
     text-align: center;
-    color: lightcoral;
+    color: darkgreen;
 }
 
 h4 {
@@ -73,21 +74,39 @@ button:hover {
     flex-grow: 1;
 }
 
-footer {  /* name and class information */
-    color: red;
-    font-size: 20px;
+img {
+    height: 22rem; 
+    width: 18rem;
+    max-width: 400px;
+    max-height: 500px;
 }
 
-img {
-    height: 35rem; 
+.card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+.card-body {
+    color: red;
+    font-size: 1.4rem;
+}
+
+.card-footer {
+    background-color: transparent;
+    border: none;
+    color: orange;
+    font-size: 1.5rem;
 }
 
 .pic {
     position: relative;
-    left: 85%;
+    left: 50%;
+
 }
 .pic > img,
 .pic-text {
-    color: lightsalmon;
+    color: violet;
     position: absolute;
+    font-size: .6rem;
 }
