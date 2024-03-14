@@ -34,7 +34,7 @@ function displayResults() {
         {text: "Charlie", url: "https://github.com/bbolton1/CIS376-Charlie-Brayden"},
         {text: "Delta", url: "https://github.com/bbolton1/delta-lab-brayden"},
         {text: "Echo", url: "https://github.com/bbolton1/brayden-cis376-echo"},
-        {text: "Foxtrot", url: "https://github.com/bbolton1/brayden-cis376-echo"},
+        {text: "Foxtrot", url: "https://github.com/bbolton1/brayden-foxtrot-cis376"},
         ];
 
         output.innerHTML = ''; // Clear any previous content
