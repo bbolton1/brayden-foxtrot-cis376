@@ -1,49 +1,48 @@
 <!DOCTYPE html>
-<html lang = "en" >
+<html lang="en">
 <head>
-  <meta charset = "UTF-8">
+  <meta charset="UTF-8">
   <title>bbolton1</title>
-  <meta name = "viewport" content="width=device-width, initial-scale=1">
-  <link rel = 'stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
-  <link rel = "stylesheet" href="./styles/style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body onload = "changeBackground()">
-  <div class="row">
-    <div class = "container-fluid d-flex flex-column min-vh-100">
-      <div class = "container" id="mainbox">
-        <h1>What would you like to know about me?</h1>
-          <label for = "answer"><strong>Options: "Personal info", "Capabilities", "Links"</strong></label>
-            <input type = "text" id="answer" placeholder="Personal info, Capabilities, Links">
-            <button onclick = "displayResults()">Submit</button> <!-- Uses the JavaScript function to display your results -->
-        <div id = "output"></div>
-      </div>
-
-        <div class = "col-md-6">
-          <div class = "pic">
-            <img src = "styles/Brayden.jpg" alt = "Brayden" class = "img-responsive">
-            <span class = "pic-text">A picture of me my senior year of high school</span>
-          </div>
-        </div>
+<body>
+<div class="row">
+  <div class="container-fluid d-flex flex-column min-vh-100">
+    <div class="container card" id="mainbox">
+      <h1>What would you like to know about me?</h1>
+      <label for="answer"><strong>Options: "Personal info", "Capabilities", "Links"</strong></label>
+      <input type="text" id="answer" placeholder="Personal info, Capabilities, Links">
+      <button id="submitBtn">Submit</button>
+      <div id="output"></div>
     </div>
 
-    <div class="card">
-      <div class = "mt-5 p-4 bg-dark text-center">
-        <div class = "col-md-12">
-          <div class = "card-body">
-            <a href = "https://www.w3schools.com/" target = "_blank">w3schools</a>
-            |
-            <a href = "https://gist.github.com/barrycumbie/de4aa0fcb0cad79a870305240d726cd0" target = "_blank">cis 376 🚀 page</a>
-            | 
-            <a href = "https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbbolton1.github.io%2Fbbolton1%2F" target = "_blank">Page validity</a>
-            | 
-            <a href = "https://github.com/bbolton1" target = "_blank">Brayden Bolton</a>
-          </div>
-            <div class = "card-footer">
-              <i class="bi bi-brightness-high" id="dark"></i>
-              <i class="bi bi-brightness-high-fill" id="bright"></i> <!-- "brightness" icons -->
-            </div>
-          </div>
+    <div class="col-md-6 d-flex justify-content-center">
+      <div class="pic">
+        <img src="styles/Brayden.jpg" alt="Brayden" class="img-responsive">  <!-- image of me-->
+        <span class="pic-text">A picture of me my senior year of high school</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">  <!--footer with various links about me and webpage-->
+    <div class="mt-5 p-4 bg-dark text-center">
+      <div class="col-md-12">
+        <div class="card-body">
+          <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+          |
+          <a href="https://gist.github.com/barrycumbie/de4aa0fcb0cad79a870305240d726cd0" target="_blank">cis 376 🚀 page</a>
+          |
+          <a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbbolton1.github.io%2Fbbolton1%2F"
+             target="_blank">Page validity</a>
+          |
+          <a href="https://github.com/bbolton1" target="_blank">Brayden Bolton</a>
+        </div>
+        <div class="card-footer">
+          <i class="bi bi-brightness-high" id="dark"></i>
+          <i class="bi bi-brightness-high-fill" id="bright"></i>
+          <!-- "brightness" icons -->
         </div>
       </div>
     </div>
