@@ -1,5 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
 .mt-5 {
     position: flex;
     bottom: 0em;
@@ -101,22 +99,24 @@ img {
 
 .pic {
     position: relative;
-    left: 40%;
+    left: 49.5%;
 }
 
 .pic > img {
-    height: 26rem;
-    width: 24rem;
+    height: 32rem;
+    width: 30rem;
     max-width: 600px;
     max-height: 700px;
 }
 
 .pic > .pic-text {
-    color: violet; /* allows the image text to wrap properly without messing up the image's position */
+    color: violet;
     position: absolute;
     font-size: 1rem;
+    white-space: pre-wrap; 
     text-align: center; 
     width: 100%; 
+    top: 0%; 
     left: 50%; 
     transform: translateX(-50%); 
 }
